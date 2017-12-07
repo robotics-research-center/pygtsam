@@ -17,7 +17,8 @@ include(cmake/boost-python.cmake)
 find_package(GTSAM REQUIRED) # Uses installed package
 
 # Include python
-set(EIGEN3_INCLUDE_DIR ${CMAKE_INSTALL_PREFIX}/include/gtsam/3rdparty/Eigen)
+#set(EIGEN3_INCLUDE_DIR ${CMAKE_INSTALL_PREFIX}/include/gtsam/3rdparty/Eigen)
+set(EIGEN3_INCLUDE_DIR /usr/local/include/gtsam/3rdparty/Eigen)
 include_directories(${CMAKE_CURRENT_SOURCE_DIR}/include)
 include_directories(${CMAKE_INSTALL_PREFIX}/include)
 include_directories(${CMAKE_INSTALL_PREFIX}/include/gtsam/3rdparty/Eigen)
