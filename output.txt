@@ -1,0 +1,1757 @@
+[ 20%] Building CXX object CMakeFiles/pybot_eigen_types.dir/src/pybot_eigen_types.cpp.o
+In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1777:0,
+                 from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:9,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:15:0,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/home/ubuntu/codes/pygtsam/include/pygtsam/utils/container.h: In static member function ‘static PyObject* custom_list_to_list<containedType>::convert(const std::__cxx11::list<containedType>&)’:
+/home/ubuntu/codes/pygtsam/include/pygtsam/utils/container.h:25:28: warning: there are no arguments to ‘incref’ that depend on a template parameter, so a declaration of ‘incref’ must be available [-fpermissive]
+     return incref(ret.ptr());
+                            ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:276:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h: At global scope:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h:932:28: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+ struct functor_traits<std::binder2nd<T> >
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:276:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h:936:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ struct functor_traits<std::binder1st<T> >
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h:138:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:279,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ inline const CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >, const Derived>
+                                ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h:138:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:279,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::MatrixBase<Derived>::cwiseEqual(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+   return CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >,const Derived>
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:108:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: At global scope:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ inline const CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >, const Derived>
+                                ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator==,  std::equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator!=,  std::not_equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<,   std::less)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<=,  std::less_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>,   std::greater)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>=,  std::greater_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:108:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::cwiseEqual(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+   return CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >,const Derived>
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator==(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator==,  std::equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::not_equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator!=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator!=,  std::not_equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::less<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<,   std::less)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::less_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<=,  std::less_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::greater<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>,   std::greater)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::greater_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>=,  std::greater_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Cholesky:24:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:3,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pybot_eigen_types.cpp:4:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h: In member function ‘void Eigen::internal::solve_retval<Eigen::LDLT<MatrixType, _UpLo>, Rhs>::evalTo(Dest&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h:505:39: warning: typedef ‘Scalar’ locally defined but not used [-Wunused-local-typedefs]
+     typedef typename LDLTType::Scalar Scalar;
+                                       ^
+[ 40%] Building CXX object CMakeFiles/pybot_eigen_types.dir/src/eigen_numpy_conversion.cpp.o
+In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1777:0,
+                 from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:8,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+In file included from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:5:0:
+/home/ubuntu/codes/pygtsam/include/pygtsam/utils/container.h: In static member function ‘static PyObject* custom_list_to_list<containedType>::convert(const std::__cxx11::list<containedType>&)’:
+/home/ubuntu/codes/pygtsam/include/pygtsam/utils/container.h:25:28: warning: there are no arguments to ‘incref’ that depend on a template parameter, so a declaration of ‘incref’ must be available [-fpermissive]
+     return incref(ret.ptr());
+                            ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:276:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h: At global scope:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h:932:28: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+ struct functor_traits<std::binder2nd<T> >
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:276:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h:936:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ struct functor_traits<std::binder1st<T> >
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h:138:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:279,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ inline const CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >, const Derived>
+                                ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h:138:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:279,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::MatrixBase<Derived>::cwiseEqual(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+   return CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >,const Derived>
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:108:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: At global scope:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ inline const CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >, const Derived>
+                                ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator==,  std::equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator!=,  std::not_equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<,   std::less)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<=,  std::less_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>,   std::greater)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>=,  std::greater_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:108:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::cwiseEqual(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+   return CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >,const Derived>
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator==(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator==,  std::equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::not_equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator!=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator!=,  std::not_equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::less<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<,   std::less)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::less_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<=,  std::less_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::greater<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>,   std::greater)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::greater_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>=,  std::greater_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/template.h:7,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Cholesky:24:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:3,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/src/eigen_numpy_conversion.cpp:6:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h: In member function ‘void Eigen::internal::solve_retval<Eigen::LDLT<MatrixType, _UpLo>, Rhs>::evalTo(Dest&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h:505:39: warning: typedef ‘Scalar’ locally defined but not used [-Wunused-local-typedefs]
+     typedef typename LDLTType::Scalar Scalar;
+                                       ^
+[ 60%] Linking CXX shared library pybot_eigen_types.so
+[ 60%] Built target pybot_eigen_types
+[ 80%] Building CXX object CMakeFiles/pygtsam.dir/src/pygtsam.cpp.o
+In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarraytypes.h:1777:0,
+                 from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:18,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:9,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/lib/python2.7/dist-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:15:2: warning: #warning "Using deprecated NumPy API, disable it by " "#defining NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-Wcpp]
+ #warning "Using deprecated NumPy API, disable it by " \
+  ^
+/home/ubuntu/codes/pygtsam/src/pygtsam.cpp:263:3: warning: multi-line comment [-Wcomment]
+   // .def("__repr__", &gt::DerivedValue<TYPE>::print)       \
+   ^
+In file included from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:15:0,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/home/ubuntu/codes/pygtsam/include/pygtsam/utils/container.h: In static member function ‘static PyObject* custom_list_to_list<containedType>::convert(const std::__cxx11::list<containedType>&)’:
+/home/ubuntu/codes/pygtsam/include/pygtsam/utils/container.h:25:28: warning: there are no arguments to ‘incref’ that depend on a template parameter, so a declaration of ‘incref’ must be available [-fpermissive]
+     return incref(ret.ptr());
+                            ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:276:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h: At global scope:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h:932:28: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+ struct functor_traits<std::binder2nd<T> >
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:276:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/Functors.h:936:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ struct functor_traits<std::binder1st<T> >
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h:138:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:279,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ inline const CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >, const Derived>
+                                ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/MatrixBase.h:138:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:279,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::MatrixBase<Derived>::cwiseEqual(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+   return CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >,const Derived>
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:108:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: At global scope:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:62:32: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+ inline const CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >, const Derived>
+                                ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator==,  std::equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator!=,  std::not_equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<,   std::less)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<=,  std::less_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>,   std::greater)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:190:34: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+   inline const CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                                  ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>=,  std::greater_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:108:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder1st<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::cwiseEqual(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/MatrixCwiseUnaryOps.h:65:28: warning: ‘template<class _Operation> class std::binder1st’ is deprecated [-Wdeprecated-declarations]
+   return CwiseUnaryOp<std::binder1st<std::equal_to<Scalar> >,const Derived>
+                            ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:108:11: note: declared here
+     class binder1st
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator==(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:196:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator==,  std::equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::not_equal_to<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator!=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:197:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator!=,  std::not_equal_to)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::less<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:198:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<,   std::less)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::less_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator<=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:199:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator<=,  std::less_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::greater<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:200:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>,   std::greater)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/ArrayBase.h:109:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Core:350,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:1,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h: In member function ‘const Eigen::CwiseUnaryOp<std::binder2nd<std::greater_equal<typename Eigen::internal::traits<T>::Scalar> >, const Derived> Eigen::ArrayBase<Derived>::operator>=(const Scalar&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:192:30: warning: ‘template<class _Operation> class std::binder2nd’ is deprecated [-Wdeprecated-declarations]
+     return CwiseUnaryOp<std::binder2nd<FUNCTOR<Scalar> >, const Derived> \
+                              ^
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Core/../plugins/ArrayCwiseUnaryOps.h:201:1: note: in expansion of macro ‘EIGEN_MAKE_SCALAR_CWISE_UNARY_OP’
+ EIGEN_MAKE_SCALAR_CWISE_UNARY_OP(operator>=,  std::greater_equal)
+ ^
+In file included from /usr/include/c++/5/bits/stl_function.h:1128:0,
+                 from /usr/include/c++/5/string:48,
+                 from /usr/include/c++/5/random:40,
+                 from /usr/include/c++/5/bits/stl_algo.h:66,
+                 from /usr/include/c++/5/algorithm:62,
+                 from /usr/include/boost/function/detail/prologue.hpp:13,
+                 from /usr/include/boost/function/function_template.hpp:13,
+                 from /usr/include/boost/function/detail/maybe_include.hpp:13,
+                 from /usr/include/boost/function/function0.hpp:11,
+                 from /usr/include/boost/python/errors.hpp:13,
+                 from /usr/include/boost/python/handle.hpp:11,
+                 from /usr/include/boost/python/args_fwd.hpp:10,
+                 from /usr/include/boost/python/args.hpp:10,
+                 from /usr/include/boost/python.hpp:11,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:4:
+/usr/include/c++/5/backward/binders.h:143:11: note: declared here
+     class binder2nd
+           ^
+In file included from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Cholesky:24:0,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Dense:3,
+                 from /usr/local/include/gtsam/3rdparty/Eigen/Eigen/Eigen:1,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/utils/eigen_numpy_conversion.hpp:10,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:18,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h: In member function ‘void Eigen::internal::solve_retval<Eigen::LDLT<MatrixType, _UpLo>, Rhs>::evalTo(Dest&) const’:
+/usr/local/include/gtsam/3rdparty/Eigen/Eigen/src/Cholesky/LDLT.h:505:39: warning: typedef ‘Scalar’ locally defined but not used [-Wunused-local-typedefs]
+     typedef typename LDLTType::Scalar Scalar;
+                                       ^
+/home/ubuntu/codes/pygtsam/src/pygtsam.cpp: In function ‘void bot::python::init_module_pygtsam()’:
+/home/ubuntu/codes/pygtsam/src/pygtsam.cpp:1156:51: warning: deprecated use of default argument for parameter of non-function
+        const gt::KeyFormatter& keyFormatter = gt::DefaultKeyFormatter) const = &gt::BayesTree<gt::ISAM2Clique>::saveGraph;
+                                                   ^
+/home/ubuntu/codes/pygtsam/src/pygtsam.cpp:1176:47: error: ‘setEnableFindUnusedFactorSlots’ is not a member of ‘gtsam::ISAM2Params’
+       .def("setEnableFindUnusedFactorSlots", &gt::ISAM2Params::setEnableFindUnusedFactorSlots)
+                                               ^
+In file included from /usr/lib/python2.7/dist-packages/numpy/core/include/numpy/ndarrayobject.h:27:0,
+                 from /home/ubuntu/codes/pygtsam/include/pygtsam/pybot_eigen_types.hpp:9,
+                 from /home/ubuntu/codes/pygtsam/src/pygtsam.cpp:9:
+/usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h: At global scope:
+/usr/lib/python2.7/dist-packages/numpy/core/include/numpy/__multiarray_api.h:1448:1: warning: ‘int _import_array()’ defined but not used [-Wunused-function]
+ _import_array(void)
+ ^
+CMakeFiles/pygtsam.dir/build.make:62: recipe for target 'CMakeFiles/pygtsam.dir/src/pygtsam.cpp.o' failed
+make[2]: *** [CMakeFiles/pygtsam.dir/src/pygtsam.cpp.o] Error 1
+CMakeFiles/Makefile2:104: recipe for target 'CMakeFiles/pygtsam.dir/all' failed
+make[1]: *** [CMakeFiles/pygtsam.dir/all] Error 2
+Makefile:127: recipe for target 'all' failed
+make: *** [all] Error 2
